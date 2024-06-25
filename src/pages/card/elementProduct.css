@@ -1,0 +1,113 @@
+.product-element-wrapper {
+    background: rgba(255, 255, 255, 0.87);
+    display: flex;
+    align-items: center;
+    height: auto;
+    column-gap: 3%;
+    color: black;
+    
+    border: 3px solid #AE8955;
+}
+
+.product-img {
+    height: 150px;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-info {
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 30px;
+    flex-direction: column;
+    width: 55%;
+}
+
+.actions-product {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+#bin-icon {
+    width: 18px;
+}
+
+#bin-icon:hover {
+    cursor: pointer;
+}
+
+.product-name {
+    color: #AE8955;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-desc {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.548);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {
+    .product-element-wrapper {
+        border: none;
+        display: flex;
+        align-items: center;
+        height: auto;
+        column-gap: 3%;
+        width: 100%;
+    }
+
+    .actions-product {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 20%;
+    }
+
+    .product-info {
+        width: 50%;
+    }
+
+    .product-img {
+        
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .product-name {
+        font-size: 26px;
+    }
+    
+    .product-desc {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .product-name {
+        font-size: 24px;
+    }
+    
+    .product-desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .product-name {
+        font-size: 18px;
+    }
+    
+    .product-desc {
+        font-size: 12px;
+    }
+}

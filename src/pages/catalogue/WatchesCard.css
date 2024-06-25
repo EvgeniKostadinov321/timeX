@@ -1,0 +1,78 @@
+.Watches-card-main {
+    min-width: 350px;
+    max-width: 450px;
+    width: auto;
+    border-radius: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.158);
+    color: white;
+    
+}
+
+.product-image-holder {
+    height: 40dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.heading-card {
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.desc-card {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+
+
+.controls-card-watches {
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+#Add_To_CardBtn {
+    border: 1px solid #ae8955;;
+    background: #ae895544;;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 0.8rem;
+}
+#dolarSGN {
+    color: #ae8955;
+}
+
+.heiding-main-product {
+    font-size: 1.45rem;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ae8955;
+}
+
+.secondary-text {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.1px;
+    font-size: 1rem;
+}
+
+#price-el {
+    font-size: 1.1rem;
+}
+
+#dissable-link-style {
+    color: white;
+}

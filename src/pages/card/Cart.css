@@ -1,0 +1,57 @@
+.cart-section-full {
+    padding: 5dvh 0;
+    
+}
+
+.cart-section { 
+    padding: 2.5dvh 2.5%;
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.425);
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    margin-bottom: 20px;
+}
+
+
+.card-info {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.products-wrapper-cart {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5dvh;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .cart-section { 
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart-section { 
+        padding: 2.5dvh 1%;
+        width: 100%;
+        
+    }
+}
+
+

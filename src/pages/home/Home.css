@@ -1,0 +1,154 @@
+* {
+    overflow: auto;
+}
+
+#mobile-text {
+    display: none;
+}
+
+#hero-section-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+#hero-section-home::after {
+    content: "";
+    opacity: 0.6;
+    background: rgb(26, 31, 41) no-repeat fixed top;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+    height: 100dvh;
+}
+
+.col-flex-div {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 25dvh;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+
+#hero-home-btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+.horiz-line {
+    height: 0.1px;
+    width: 30%;
+    background: #ae895552;
+}
+
+.col-flex-div h2{
+    color: #AE8955;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col-flex-div h1 {
+    font-size: 4rem;
+    max-width: 100%;
+    letter-spacing: 1.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-flex-div p {
+    color: #ae8955;
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col-flex-div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #ae895550;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    transition: 0.3s;
+    background-color: #ae895550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.6px;
+    overflow: hidden;
+}
+
+
+
+.col-flex-div button::before, .col-flex-div button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #ae8955da;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.col-flex-div button::before {
+    top: -2px;
+    left: -2px;
+}
+
+.col-flex-div button::after {
+    top: 2px;
+    left: 2px;
+}
+
+.col-flex-div button:hover::before, .col-flex-div button:hover::after {
+    top: 0;
+    left: 0;
+}
+
+.col-flex-div button:hover {
+    cursor: pointer;
+}
+
+#examples-watches {  
+    height: auto;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.colletion-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    
+}
+

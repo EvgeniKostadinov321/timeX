@@ -1,0 +1,25 @@
+.none-active-burger {
+    display: none;
+}
+
+.active-burger {
+    display: block;
+    position: absolute;
+    z-index: 10000;
+    right: 0;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.5%;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.active-burger a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}

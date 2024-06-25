@@ -1,0 +1,99 @@
+#profile-section {
+    color: white;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper-profile-expanded {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30%;
+    position: relative;
+    height: 60dvh;
+    min-width: 350px;
+    width: auto;
+    max-width: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    background: rgba(0, 0, 0, 0.459);
+}
+
+#profile-info {
+    
+    min-width: 350px;
+    min-height: 30dvh;
+    display: flex;
+    flex-direction: column;
+    height: 60dvh;
+    padding: 20px;
+}
+
+#header-profile {
+    text-align: center;
+}
+
+.form-group-profile {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+
+.label-profile {
+    margin-right: 20px;
+}
+
+input {
+    outline: none;
+}
+#button-holder {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 10dvh;
+}
+
+
+#lgout-btn-2 {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ae8955da;
+    background: #ae8955a4;
+    color: wheat;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#lgout-btn {
+    
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ae89552a;
+    background: #00000042;
+    color: wheat;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.text-input-profile {
+    height: 25px;
+}
+
+.updatedLgoutBtn {
+    align-self: flex-end;
+}
+
+.profile-info-style {
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+}

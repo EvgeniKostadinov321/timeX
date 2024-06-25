@@ -1,0 +1,158 @@
+.services-section {
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    
+    padding-bottom: 30px;
+}
+
+.content-services {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 170px;
+    background: rgba(255, 255, 255, 0.062);
+    padding: 20px;
+}
+
+.service-wrapper {
+    display: flex;
+    align-items: center;
+    height: 55dvh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-box {
+    margin: 0 auto;
+    width: 50%;
+    height: 55dvh;
+}
+
+
+
+.image-div-serice {
+    width: 100%;
+    height: 55dvh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    
+
+.headline-services {
+    color: #ae8955da;
+    font-size: clamp(1rem, 3.5rem, 4.2rem);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+}
+
+.parag-services {
+    letter-spacing: 1.8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(1rem, 1.5rem, 1.8rem);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 40vh;
+}
+
+
+
+
+
+.other-box-text {
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 1.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 554px) { 
+    .service-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .service-box {
+        width: 100%;
+        height: auto;
+    } 
+
+    .headline-services {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    
+    .parag-services {
+        letter-spacing: 1.2px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .content-services {
+        
+        row-gap: 70px;
+        
+    }
+}
+
+@media screen and (max-width: 1600px) { 
+    .service-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .service-box {
+        width: 100%;
+        height: auto;
+    } 
+
+    .headline-services {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    
+    .parag-services {
+        letter-spacing: 1.2px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .content-services {
+        
+        row-gap: 70px;
+        
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) { 
+    .image-div-serice {
+        background-position: top;
+        background-size: contain;
+    }
+}

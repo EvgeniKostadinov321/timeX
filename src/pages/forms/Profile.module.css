@@ -1,0 +1,129 @@
+.loginSection {
+    width: 100%;
+    height: 90dvh;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.loginSection a {
+    color: #ae8955;
+    text-decoration: none;
+}
+
+.loginContainer {
+    background: rgba(255, 255, 255, 0.123);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3%;
+    padding-bottom: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formGroup input {
+    width: 50%;
+    align-self: center;
+    background: rgba(0, 0, 0, 0.274);
+    border: none;
+    height: 35px;
+    color: white;
+    padding-left: 2px;
+    border: 0.2px solid none;
+}
+
+.formGroup input::placeholder {
+    text-align: left;
+}
+
+
+.formGroup input:focus {
+    outline: none;
+}
+
+.formGroup label {
+    color: #ae8955;
+    width: 50%;
+    align-self: center;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.h1Css {
+    font-size: 1.7rem;
+    color: #ae8955;
+    letter-spacing: 1.2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.labelForm {
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragLogin {
+    
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btnLogin {
+    margin-top: 1.25rem;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #ae8955da;
+    background-color: #ae895550;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    letter-spacing: 1.1px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 554px) {
+    .loginContainer {
+        
+        width: 350px;
+        height: 63dvh;
+    }
+
+    .formGroup label {
+        font-size: 1.25rem;
+    }
+
+    .h1Css {
+        font-size: 1.5rem;
+    }
+
+    .btnLogin {
+        margin-top: 3rem;
+        letter-spacing: 1.1px;
+    }
+
+    .formGroup input {
+        width: 220px;
+    }
+
+    .formGroup label {
+        width: 220px;
+    }
+}
+
+

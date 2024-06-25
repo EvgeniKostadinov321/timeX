@@ -1,0 +1,19 @@
+
+.catalogue-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.catalog-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 35px;
+    column-gap: 16px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}

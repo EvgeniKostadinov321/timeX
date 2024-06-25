@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width: 554px) {
+    .horiz-line {
+        height: 0.1px;
+        width: 20%;
+        background: #ae8955;
+    }
+    
+    .col-flex-div h2{
+        color: #AE8955;
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .col-flex-div h1 {
+        font-size: 3.5rem;
+        max-width: 100%;
+        letter-spacing: 1.2px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .col-flex-div p {
+        margin-top: 15px;
+        color: #AE8955;
+        font-size: 1.15rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        max-width: 95%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #pc-text {
+        display: none;
+    }
+
+    #mobile-text {
+        display: block;
+    }
+}
